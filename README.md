@@ -36,7 +36,7 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 **※ 챗봇을 사용한 이유 ※**
 - CCTV를 돌려보지 않아도 학대 정황을 빠르게 체크할 수 있음, 신고가 접수 될 경우 경찰은 해당 학대 시간대만 확인<br><br>
 
-**※ 서울+경기 어린이집 현황에서 CCTV의 갯수가 현원에 영향을 미치는지 중요도 확인 ※**
+**※ [서울+경기_어린이집_cctv.ipynb](https://github.com/yoonth95/Data-Analysis-Project_Preventive-Measure-against-Child-Abuse/blob/master/%EC%84%9C%EC%9A%B8%2B%EA%B2%BD%EA%B8%B0_%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91_cctv.ipynb)에서 CCTV의 갯수가 현원에 영향을 미치는지 중요도 확인 ※**
 <img src="https://user-images.githubusercontent.com/78673090/133652201-ffdf04cd-cefa-459c-a10b-9cb4fb4d07d5.png" width="600" height="400">
 
 - XG부스트로 CCTV와 어린이집 정원의 관계를 봤을 때 연관성이 높게 나오지만 이는 CCTV가 있는 곳으로 아이들을 보낸다기 보단 어린이집의 규모가 클수록 아이가 많은 것이고 그에 따른 CCTV 수가 많은 것으로 보임<br><br>
