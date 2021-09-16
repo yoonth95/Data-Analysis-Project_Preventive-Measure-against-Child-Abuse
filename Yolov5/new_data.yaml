@@ -1,0 +1,7 @@
+train: /content/drive/MyDrive/딥러닝/코드/yolov5/dataset/new_data/train
+val: /content/drive/MyDrive/딥러닝/코드/yolov5/dataset/new_data/valid
+
+nc: 2
+
+names: ['person', 'assault']
+
