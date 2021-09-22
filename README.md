@@ -16,6 +16,7 @@
 - [빅카인즈](https://www.bigkinds.or.kr/)_cctv_아동.csv
 - 빅카인즈_아동학대_어린이집.csv
 - SentiWord.csv
+- [Kaggle_Facial_Expression_recognition](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 <br>
 
 ## 3. Summary
@@ -41,10 +42,16 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 
 - XG부스트로 CCTV와 어린이집 정원의 관계를 봤을 때 연관성이 높게 나오지만 이는 CCTV가 있는 곳으로 아이들을 보낸다기 보단 어린이집의 규모가 클수록 아이가 많은 것이고 그에 따른 CCTV 수가 많은 것으로 보임<br><br>
 
-## 4. 개선점
+## 4. 개선점 및 참고
+### 4.1 개선점
 - 상황적 한계 : 개인정보 사각지대, 데이터를 모으기 어려움
 - 왜 이때까지 해결이 안 됐을까라는 의문점 : 실현 가능성 힘듬, 민간에서는 안 하겠지만 국공립에서는 정책차원에서 할 가능성이 있음
 - 정확도가 높은 기능을 추려서 볼 수 있는 기능 추가한다면 훨씬 적용 가능성이 높아질 것임 => 효율 시간대를 추릴 수도 있음
+
+### 4.2 참고 사이트
+- [Kaggle_Facial_Expression_recognition_참고_사이트](https://www.kaggle.com/drcapa/facial-expression-eda-cnn?cellIds=1&kernelSessionId=74537191)
+- csv파일로 된 이미지를 변환하는 과정만 참고, 이후 모델링 작업을 직접 수정
+- 참고 사이트랑 정확도는 비슷하나 Loss값은 줄일 수 있었음
 <br>
 
 ## 5. 영상 분석
