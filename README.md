@@ -67,19 +67,4 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 5. 학습시켜 저장된 "name.pt" 파일과 "test.mp4" 넣어서 진행
 > - yolob5-master 폴더 안에 있는 detect.py 파일 실행 (yolo detect.ipynb에서 git clone으로 다운받은 yolov5로 폴더에 있음)
 > - python detect.py --source "test.mp4" --weights "name.pt"
-&nbsp;
-&nbsp;
-<br>
 
-### 5.2 Kaggle 표정 데이터셋으로 모델링 작업 후 표정 분석
-#### 5.2.1 Kaggle 표정 데이터.csv 파일 다운 후 모델링 작업 (Colab에서 진행)
-1. Dataset : [표정 데이터셋](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
-2. 모델링 참고 사이트 : https://www.kaggle.com/drcapa/facial-expression-eda-cnn?cellIds=1&kernelSessionId=74537191
-- csv파일로 된 이미지를 변환하는 과정만 참고, 이후 모델링 작업을 직접 수정
-- 참고 사이트랑 정확도는 비슷하나 Loss값은 줄일 수 있었음
-- 'Facial_Expression_Recognition_model.hdf5' 파일로 저장
-
-3. 실시간 표정 분석 참고 사이트 : https://github.com/prabhuiitdhn/Emotion-detection-VGGnet-architecture-fer2013.git
-- zip 파일 다운로드 
-- checkpoints에서 Facial_Expression_Recognition_model.hdf5 파일로 변경 후 진행
-- python emotion_detector.py --cascade haarcascade_frontalface_default.xml --model checkpoints/Facial_Expression_Recognition_model.hdf5 --video "테스트.mp4"
