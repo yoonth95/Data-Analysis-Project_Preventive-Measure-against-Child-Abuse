@@ -56,6 +56,8 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 
 ## 5. 영상 분석
 ### 5.1 Yolov5_폭행 영상 분석
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/78673090/137880953-7f4711bf-a60b-4588-9720-549cba598de7.gif)
+
 #### 5.1.1. 동영상 데이터 이미지로 변환 후 라벨링 작업
 1. 영상 데이터 : [AI Hub 이상행동 CCTV 영상](https://aihub.or.kr/aidata/139)
 2. [영상 프레임단위 이미지 저장.ipynb]() 실행하여 다운받은 폭행 영상 프레임 단위로 이미지 저장
