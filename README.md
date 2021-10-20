@@ -59,6 +59,8 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/78673090/137880953-7f4711bf-a60b-4588-9720-549cba598de7.gif)
 
 #### 5.1.1. 동영상 데이터 이미지로 변환 후 라벨링 작업
+![제목 없음](https://user-images.githubusercontent.com/78673090/138022843-4e1de064-7c37-476d-b677-e77f00c9e79c.png)
+
 1. 영상 데이터 : [AI Hub 이상행동 CCTV 영상](https://aihub.or.kr/aidata/139)
 2. [영상 프레임단위 이미지 저장.ipynb]() 실행하여 다운받은 폭행 영상 프레임 단위로 이미지 저장
 3. labelImg-master 폴더 안에 있는 [labelImg.py]() 파일 실행하여 이미지 라벨링 작업 (폭행 이미지 위주로 라벨링 작업)
