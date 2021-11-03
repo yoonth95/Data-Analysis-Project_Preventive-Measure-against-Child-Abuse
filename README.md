@@ -75,7 +75,7 @@ MariaDB 데이터베이스에 학대 의심 상황 (이미지, 시간대) 저장
 > - python detect.py --source "test.mp4" --weights "name.pt"
 
 ### 5.2 표정 분석
-
+[Emotion_Recognition](https://github.com/yoonth95/Emotion_Recognition.git)
 1. Kaggle의 FER2013 데이터셋 사용
 2. CNN 모델 학습
 3. MTCNN으로 얼굴 인식 후 학습된 모델을 사용하여 표정 감지
