@@ -1,4 +1,4 @@
-# Data-Analysis-Project_Preventive-Measure-against-Child-Abuse
+# Data-Analysis_Object-Detection
 
 **아동학대 분석 및 해결, 감소 방안 제안 프로젝트**
 - [CCTV 영상 분석 및 챗봇 프로젝트](https://github.com/yoonth95/Data-Analysis-Project_Preventive-Measure-against-Child-Abuse/blob/master/CCTV%20%EC%98%81%EC%83%81%20%EB%B6%84%EC%84%9D%20%EB%B0%8F%20%EC%B1%97%EB%B4%87%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf)
