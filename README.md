@@ -4,7 +4,6 @@
 - [CCTV 영상 분석 및 챗봇 프로젝트](https://github.com/yoonth95/Data-Analysis-Project_Preventive-Measure-against-Child-Abuse/blob/master/CCTV%20%EC%98%81%EC%83%81%20%EB%B6%84%EC%84%9D%20%EB%B0%8F%20%EC%B1%97%EB%B4%87%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf)
 
 ## 1. Overview
-- Organization : 한경닷컴IT교육센터
 - Project Title : 어린이집 학대 탐지 AI CCTV & 챗봇 서비스
 - Project Description : 어린이집 아동학대 데이터 분석 및 AI CCTV 구현 & 챗봇 서비스 제안
 - Date : 2021.07.12 ~ 2021.07.29
